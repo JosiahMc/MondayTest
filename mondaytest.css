@@ -200,18 +200,21 @@ margin-top: 2px;
 
 .fourboxes h2 {
 	color: #FFFFFF;
+
+	
 }
 
 .fourboxes form {
     background-color: #70AFEA; 
     border: none;
-    color: white;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 	font-size: 16px;
 	margin-left: 40px;
+	color: white;
+
 }
 
 .footer {
