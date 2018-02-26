@@ -5,7 +5,7 @@
 }
 	
 .maincontainer {
-	height: 1000px;
+	height: 1400px;
 	width: 970px;
 	background: #886D2C;
 	border-radius: 10px;
@@ -13,41 +13,147 @@
 
 .header {
 	width: 970px;
-	height: 120px;
-	background: yellow;
+	height: 68px;
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
 	border-radius: 10px;
 	display: inline-block;
+	
 	
 }
 
 .header img {
-	width: 80px;
+	width: 84px;
 	border-radius: 10px 0 0 10px;
 	display: inline;
+	position: relative;
+	
 	
 }
 
 .navcontainer {
-	background: green;
-	width: 550px;
-	height: 80px;
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
+	width: 570px;
+	height: 68px;
 	display: inline-block;
 	vertical-align: top;
 	
 }
+
+li .navitems {
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
+}
 .navitems a {
 	text-decoration: none;
 	color: black;
-	font-size: 25px;
-	padding: 15px;
+	font-size: 23px;
+	padding: 20px;
 	/* border: 2px black; */
 	display: inline-block;
-	background: purple;
-	border: black;
-	
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
+	border-style: 10px solid;
+	border: 1px solid #aaa;
 	
 }
 
 .navcontainer ul {
 	list-style-type: none;
+}
+
+#searchbox {
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
+	height: 68px;
+	width: 190px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-left: 110px;
+}
+input {
+	height: 25px;
+}
+
+#searchbox form img {
+	width: 29px;
+	/* border-radius: 10px 0 0 10px; */
+	display: inline;
+	position: relative;
+	border-radius: 0 10px 10px 0;
+	margin-top: 20px;
+	margin-bottom: -9px;
+	
+}
+
+.mainimage {
+	width: 970px;
+	margin-top: 15px;
+	margin-bottom: -5px;
+}
+
+.imagefooter .navbar {
+	background: #454646;
+	height: 45px;
+	
+}
+
+.white {
+	color: white;
+}
+
+.blue {
+	color:lightblue;
+}
+.navitems2 a {
+	text-decoration: none;
+	font-size: 15px;
+	padding: 8px;
+	/* border: 2px black; */
+	display: inline-block;
+	background: linear-gradient(#F7F7F5, #ECECEC, #ECECEC);
+	 margin-top: 10px; 
+	border: 1px white; 
+	background: #454646;
+   border-right: 2px solid gray;
+   /* transform: skew(-20deg) rotate(-2deg); */
+   
+ }
+
+ #bottomcontainer {
+	 background: #FDFDFD;
+	 width: 970px;
+	 height: 400px;
+ }
+.discoverbrowse {
+	width: 970px;
+	height: 85px;
+	background: purple;
+}
+
+.discoverbrowse p {
+	color: gray;
+	padding: 15px;
+	font-size: 28px;
+	display: inline-block;
+}
+
+.button {
+    background-color: #5B88AC; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 23px;
+	display: inline-block;
+	width: 280px;
+	height: 70px;
+	margin-left: 75px;
+	border-radius: 5px;
+	margin-top: 6px;
+
+}
+
+.button p {
+	display: inline-block;
+	color: white;
 }
