@@ -5,9 +5,9 @@
 }
 	
 .maincontainer {
-	height: 1400px;
+	height: 1250px;
 	width: 970px;
-	background: #886D2C;
+	background: #FFFFFF;
 	border-radius: 10px;
 }
 
@@ -125,11 +125,11 @@ input {
 .discoverbrowse {
 	width: 970px;
 	height: 85px;
-	background: purple;
+	background: #FFFFFF;
 }
 
 .discoverbrowse p {
-	color: gray;
+	color: #B5B5B5;
 	padding: 15px;
 	font-size: 28px;
 	display: inline-block;
@@ -150,10 +150,115 @@ input {
 	margin-left: 75px;
 	border-radius: 5px;
 	margin-top: 6px;
+	
 
 }
 
 .button p {
 	display: inline-block;
 	color: white;
+}
+
+.fourboxes {
+	width: 963px;
+	height: 280px;
+	background: #FFFFFF;
+	border: solid #B5B5B5;
+
+
+}
+
+
+.fourths {
+	background: #FFFFFF;
+	height: 240px;
+	width: 236px;
+	display: inline-block;
+	vertical-align: top;
+}
+.pic {
+display: inline-block;
+width: 35px;
+margin-left: 14px;
+margin-top: 2px;
+}
+.fourths h1 {
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.pics {
+	/* display: inline-block;
+	vertical-align: top; */
+	width: 160px;
+	margin-left: 15px;
+	margin-top: 5px;
+	
+}
+
+.fourboxes h2 {
+	color: #FFFFFF;
+}
+
+.fourboxes form {
+    background-color: #70AFEA; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	margin-left: 40px;
+}
+
+.footer {
+	width: 963px;
+	height: 80px;
+	background:#FFFFFF;
+	display: inline-block;
+	
+}
+.footeritems a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	padding: 20px;
+	display: inline-block;
+	margin-left: 53px;
+	border-bottom: solid #d4c8c8;	
+}
+.footlists {
+	width: 150px;
+	height: 220px;
+	background: #FCFEFD;
+
+}
+
+#footlists li {
+	color: #B5B5B5;
+	margin-top: 10px;
+}
+.footlists {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 8px;
+}
+
+.footlists ul {
+	
+ 	list-style-type: none;
+}
+
+.footerr {
+	width: 970px;
+	height: 70px;
+	background: #FCFEFD;
+}
+
+.footerr {
+	margin-left: 200px;
+	color: #B5B5B5;
 }
